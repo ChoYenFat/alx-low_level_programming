@@ -1,25 +1,25 @@
-#include <stdio.h>
-#include <stdio.h>
+#include <stdlib.h>
 #include <time.h>
-/*program will assign a random number to the variable n */
+#include <stdio.h>
 
 /**
- * main - Entry point
+ * main - will print any number whether positive, negative, or zero.
  *
- * Return 0 Exit
- */
-int main(Void)
+ * Return: Always 0.
+*/
+int main(void)
 {
-int n;
-int m;
-strand(time(0));
-n = rand () - RAND_MAX / 2;
-m - n % 10;
-if (n > 5)
-printf("Last digit of %i is %i and is greater than 5\n", n, m);
-else if (m == 0)
-printf("Last digit of %i is %i and is 0\n", n, m);
-else
-printf("Last digit of %i is %i and is ledd than 6 and not 0\n", n, m);
-return (0);
+	int n;
+
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+
+	if (n > 0)
+		printf("%d is positive\n", n);
+	else if (n < 0)
+		printf("%d is negative\n", n);
+	else
+		printf("%d is zero\n", n);
+
+	return (0);
 }
