@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - will Print last digit of any number whether greater than 5, less than 6, or 0.
+ * main - Enry point
  *
  * Return: Always 0.
  */
