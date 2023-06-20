@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
  *Prints 10 times the alphabet, in lowercase.
